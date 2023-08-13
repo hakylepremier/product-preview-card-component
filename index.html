@@ -1,0 +1,91 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="style.css" />
+
+		<title>Frontend Mentor | Product preview card component</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+				position: fixed;
+				bottom: 10px;
+				width: 100%;
+				color: #98a6bd;
+			}
+			.attribution a {
+				color: #3c8067;
+			}
+			@media screen and (max-height: 660px) and (max-width: 900px) {
+				.attribution {
+					padding-top: 20px;
+					position: static;
+					transform: translateX(0);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<main class="product">
+			<picture class="product__img">
+				<source
+					media="(max-width:700px)"
+					srcset="./images/image-product-mobile.jpg"
+					class="product__img--img"
+				/>
+				<img
+					src="./images/image-product-desktop.jpg"
+					alt=""
+					class="product__img--img"
+				/>
+			</picture>
+
+			<section class="product__info">
+				<article class="product__text">
+					<h2 class="product__heading--2">Perfume</h2>
+
+					<h1 class="product__heading--1">Gabrielle Essence Eau De Parfum</h1>
+
+					<p class="product__details">
+						A floral, solar and voluptuous interpretation composed by Olivier
+						Polge, Perfumer-Creator for the House of CHANEL.
+					</p>
+
+					<article class="product__price">
+						<h2 class="product__price--now">$149.99</h2>
+						<p class="product__price--old">$169.99</p>
+					</article>
+				</article>
+
+				<a href="" class="cart__btn">
+					<img src="./images/icon-cart.svg" alt="" class="cart__icon" />
+					Add to Cart</a
+				>
+			</section>
+		</main>
+
+		<footer class="attribution">
+			Challenge by
+			<a
+				href="https://www.frontendmentor.io?ref=challenge"
+				target="_blank"
+				rel="noopener"
+				>Frontend Mentor</a
+			>. Coded by <a href="https://www.humphreyyeboah.com">Humphrey Yeboah</a>.
+		</footer>
+	</body>
+</html>
