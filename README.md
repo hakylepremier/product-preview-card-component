@@ -44,12 +44,6 @@ Users should be able to:
 
 I learnt how to match the your code to the given design
 
-```css
-.proud-of-this-css {
-	color: papayawhip;
-}
-```
-
 ## Author
 
 - Website - [Humphrey Yeboah](https://www.humphreyyeboah.com)
